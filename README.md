@@ -1,4 +1,4 @@
-## linorobot2_hardware
+# linorobot2_hardware
 
 The repository to configure and flash firmware for the yahboom microros expansion board which runs ESP32-S3
 Its kinda all over the place due to the incompatibility between the projects hardware and the hardware supported by the original linorobot2_hardware
@@ -7,7 +7,7 @@ The incompatibility includes:
 *  Motor: M310
 
 
-## Installation
+# Installation
 
 ### 1. Download linorobot2_hardware
 
@@ -27,7 +27,7 @@ Add platformio to your $PATH:
     source $HOME/.bashrc
 
 
-## Building the robot
+# Building the robot
 
 ### 1. Robot orientation
 Robot Orientation:
@@ -39,4 +39,5 @@ WHEEL1 WHEEL2 (2WD)
 WHEEL3 WHEEL4 (4WD)
 
 --------------BACK--------------
+
 
