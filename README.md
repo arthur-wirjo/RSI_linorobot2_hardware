@@ -142,24 +142,25 @@ Run the upload_firmware.sh script in the firmware directory
 
 
 # Run MicroROS Agent
-1. Open two tabs in your terminal while in the root RSI_linorobot2_hardware directory 
-On one terminal run the MicroROS agent script 
-
+### 1. Open two tabs in your terminal while in the root RSI_linorobot2_hardware directory 
+On one terminal run the MicroROS agent script
+    
     ./run_microros_agent.sh
-
-2. On another terminal run the script that activates it. 
-### The result should be feedback that the /dev/ttyUSB0 is constantly connecting and disconnecting. Don't worry, this is intended. Simply hit Ctrl+C to cancel it
+   
+### 3. On another terminal run the script that activates it. 
+## IMPORTANT: The result should be feedback that the /dev/ttyUSB0 is constantly connecting and disconnecting. Don't worry, this is intended. Simply hit Ctrl+C to cancel it
 
     ./activate_agent.sh
 
-3. Go back to the first tab and you should see the ROS2 topics being created.
-4. To test the robot out if it can move, run the keyboard controller script
+### 3. Go back to the first tab and you should see the ROS2 topics being created.
+### 4. To test the robot out if it can move, run the keyboard controller script
 
     ./keyboard_controller.sh
 
 
     
     
+
 
 
 
