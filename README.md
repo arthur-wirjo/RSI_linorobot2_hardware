@@ -143,6 +143,9 @@ Run the upload_firmware.sh script in the firmware directory
 
 # Run MicroROS Agent
 ### 1. Open two tabs in your terminal while in the root RSI_linorobot2_hardware directory 
+
+    cd ~/RSI_linorobot2_hardware
+
 On one terminal run the MicroROS agent script
     
     ./run_microros_agent.sh
@@ -153,13 +156,14 @@ On one terminal run the MicroROS agent script
     ./activate_agent.sh
 
 ### 3. Go back to the first tab and you should see the ROS2 topics being created.
-### 4. To test the robot out if it can move, run the keyboard controller script
+### 4. To test the robot out if it can move, run the keyboard controller script in another tab
 
     ./keyboard_controller.sh
 
 
     
     
+
 
 
 
